@@ -33,6 +33,11 @@ const reducer = (state, action) => {
         // problem with above line of code is that it will remive all item from basket with provided id
         basket: newBasket,
       };
+    case "SET_USER":
+      return {
+        ...state,
+        user: action.user,
+      };
     default:
       return state;
   }
