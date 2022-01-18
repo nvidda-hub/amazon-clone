@@ -35,8 +35,13 @@
 
 .product > button {
   background: rgb(193, 157, 15);
-  border: 1px solid;
+  border: 2px solid blueviolet;
   margin-top: 10px;
   border-color: darkgoldenrod;
   color: #111;
+  cursor: pointer;
+}
+
+.product > button:active {
+  background-color: chartreuse;
 }
